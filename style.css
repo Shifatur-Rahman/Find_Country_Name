@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.list {
+  background-color: #636e72;
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.list img {
+  width: 300px;
+  height: 200px;
+}
